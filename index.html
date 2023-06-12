@@ -52,7 +52,7 @@ table {
 	border-spacing: 0;
 }
         h1 {
-            color: red;
+            color: rgb(36, 36, 36);
             font-size: 50px;
             margin: 20px;
         }
@@ -80,7 +80,7 @@ table {
         }
         .questionFour {
             color: white;
-            background-color: red;
+            background-color: rgba(255, 0, 0, 0.834);
             border-radius: 5px;  
             margin: 20px;  
             padding: 7px;
@@ -100,13 +100,13 @@ table {
             align-items: center;
         }
     </style>
-        <!-- <script>
-            let userName = prompt("Hey, enter your name");
-            let lastName = prompt("Enter your last name")
-            let userOrigin = prompt("Enter where you're from");
-            let userHobbies = prompt("Enter 1 of your favourite hobbies")
+        <script>
+            let userName = prompt("Hey, enter your name:");
+            let lastName = prompt("And your last name:")
+            let userOrigin = prompt("Enter where you're from:");
+            let userHobbies = prompt("Enter 1 of your favourite hobbies:")
             let welcomeMessage = alert(`Hey ${userName} ${lastName}, from ${userOrigin}. You like to ${userHobbies}, that's cool!`);
-        </script> -->
+        </script>
 </head>
 <body>
     <main>
@@ -114,9 +114,9 @@ table {
             <h1>Class 1 Lab</h1>
         </header>
         <div class="questions">
-            <p class="questionOne">Where am I originally from? Italy</p>
+            <p class="questionOne">Where am I originally from? <span class="italy">Italy</span></p>
             <p class="questionTwo">What industry do I come from? Guitar teaching</p>
-            <p class="questionThree">What are my hobbies outside of coding? Gym, UFC, BJJ, self-improvement</p>
+            <p class="questionThree">What are my hobbies outside of coding? Gym, UFC, BJJ, music and self-improvement</p>
             <p class="questionFour">Where do I currently live? Liverpool</p>
         </div>
     </main>
